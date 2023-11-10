@@ -1,0 +1,26 @@
+<div class="calculator">
+    <form>
+        <div class="input-group">
+            <span class="input-group-addon"><i></i></span> 
+            <input id="operator1" [(ngModel)]="operator1" type="number" class="form-control operator1" name="operator1" placeholder="0.0" style="margin-top: 0px; margin-left: 160px;">
+        </div>
+
+        <div class="input-group">
+            <span class="input-group-addon"><i></i></span>
+            <input id="operator2" [(ngModel)]="operator2" type="number" class="form-control operator2" name="operator2" placeholder="0.0"  style="margin-top: 0px; margin-left: 160px;">
+        </div>
+    </form>
+
+    <div class="button-container" style="margin-left: 80px;">
+        <button class="glyphicon glyphicon-plus addition-button" (click)="addition()">
+            <span class="button-description">Sumar</span>
+        </button>
+
+     
+      
+     
+    </div>
+
+    <!-- Mueve la caja de texto de resultado aquí con margen superior e izquierdo -->
+    <input id="resultado" [(ngModel)]="result" class="result" readonly style="margin-top: 130px; margin-right: 400px;"> <!-- Ajusta los valores según sea necesario -->
+</div>
