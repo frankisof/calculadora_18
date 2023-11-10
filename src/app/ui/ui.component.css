@@ -23,7 +23,7 @@
     flex-direction: column;
     gap: 8px;
     position: absolute;
-    left: 300px; /* Ajusta el valor de right según sea necesario */
+    left: 350px; /* Ajusta el valor de right según sea necesario */
 }
 
 .operation-button {

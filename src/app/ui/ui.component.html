@@ -2,12 +2,12 @@
     <form>
         <div class="input-group">
             <span class="input-group-addon"><i></i></span> 
-            <input id="operator1" [(ngModel)]="operator1" type="number" class="form-control operator1" name="operator1" placeholder="0.0" style="margin-top: 0px; margin-left: 160px;">
+            <input id="operator1" [(ngModel)]="operator1" type="number" class="form-control operator1" name="operator1" placeholder="0.0" style="margin-top: 0px; margin-left: 250px;">
         </div>
 
         <div class="input-group">
             <span class="input-group-addon"><i></i></span>
-            <input id="operator2" [(ngModel)]="operator2" type="number" class="form-control operator2" name="operator2" placeholder="0.0"  style="margin-top: 0px; margin-left: 160px;">
+            <input id="operator2" [(ngModel)]="operator2" type="number" class="form-control operator2" name="operator2" placeholder="0.0"  style="margin-top: 0px; margin-left: 250px;">
         </div>
     </form>
 
@@ -16,7 +16,24 @@
             <span class="button-description">Sumar</span>
         </button>
 
-     
+        <button class="glyphicon glyphicon-minus substraction-button" (click)="substraction()">
+            <span class="button-description">Restar</span>
+        </button>
+        <button class="glyphicon glyphicon-certificate" (click)="multiplicacion()">
+            <span class="button-description">Multiplicacion</span>
+        </button>
+        <button class="glyphicon glyphicon-italic" (click)="logaritmo()">
+            <span class="button-description">Logaritmo</span>
+        </button>
+        <button class="glyphicon glyphicon-certificate" (click)="seno()">
+            <span class="button-description">seno</span>
+        </button>
+        <button class="glyphicon glyphicon-certificate" (click)="coseno()">
+            <span class="button-description">Coseno</span>
+        </button>
+        <button class="glyphicon glyphicon-certificate" (click)="tangente()">
+            <span class="button-description">Tangente</span>
+        </button>
       
      
     </div>
